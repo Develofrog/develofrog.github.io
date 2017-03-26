@@ -344,7 +344,7 @@ code {
   font-weight: bold;
 }
 #header {
-  background: #fff;
+  background: #292929;
   position: relative;
 }
 #header a,
@@ -354,10 +354,10 @@ code {
   -moz-transition: 0.2s ease;
   -ms-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #565a5f;
+  color: #fff;
 }
 #header a:hover {
-  color: #38b7ea;
+  color: #11ff0b;
 }
 .header-inner #logo,
 #main-nav,
@@ -519,6 +519,7 @@ code {
   line-height: 24px;
   height: 24px !important;
   border-radius: 13px;
+  background-color: #fff !important;
 }
 #search-form-wrap .search-form .search-form-input::-webkit-search-results-decoration,
 #search-form-wrap .search-form .search-form-input::-webkit-search-cancel-button {
@@ -534,13 +535,14 @@ code {
   position: absolute;
   font: 13px font-icon;
   font-family: 'FontAwesome';
+  color: #ddd;
 }
 #search-form-wrap .search-form .search-form-submit:before {
   content: '\f002';
 }
 #search-form-wrap .search-form .search-form-submit:hover,
 #search-form-wrap .search-form .search-form-submit:focus {
-  color: #777;
+  color: #fff;
 }
 .search-form-input,
 .search-form-input.ins-search-input,
@@ -1991,7 +1993,6 @@ ol.toc {
   box-shadow: none;
   font-weight: 200;
   border-radius: 0;
-  background: #fff;
   line-height: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
